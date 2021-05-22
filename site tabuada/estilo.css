@@ -1,0 +1,77 @@
+body {
+  background: #1a2980; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #1a2980,
+    #26d0ce
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #1a2980,
+    #26d0ce
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  font: normal 15pt Arial;
+}
+
+header {
+  color: white;
+  text-align: center;
+}
+
+section {
+  background: white;
+  border-radius: 10px;
+  padding: 15px;
+  width: 450px;
+  height: 450px;
+  margin: auto;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.363);
+}
+
+footer {
+  color: white;
+  text-align: center;
+  font-style: italic;
+}
+
+#seltab {
+  height: 250px;
+  width: 450px;
+}
+
+.option,
+.option value,
+.sort {
+  font-size: 20px;
+}
+
+.btn,
+#limpar {
+  height: 45px;
+  width: 110px;
+  background-color: #6dd5fa;
+  font-size: 14px;
+}
+
+#limpar {
+  margin-left: 175px;
+}
+
+.btn:hover,
+#limpar:hover {
+  background-color: #2980b9;
+}
+
+@media (min-width: 320px) and (max-width: 500px) {
+  #seltab {
+    height: 250px;
+    width: 290px;
+  }
+  section {
+    height: 450px;
+    width: 280px;
+  }
+  #limpar {
+    margin-left: 90px;
+  }
+}

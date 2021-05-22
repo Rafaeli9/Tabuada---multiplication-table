@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tabuada</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body">
+    <header>
+        <h1>Tabuada</h1>
+    </header>
+
+    <section id="form">
+       <div>
+           <p>Número: <input class="sort" type="number" name="num" id="txtn">
+            <input type="button" class="btn" value="Gerar Tabuada" onclick="tabuada()"></p>           
+       </div>
+       <div>
+           <select name="tabuada" id="seltab" size = '30'>
+               <option class="option">Sua tabuada aparecerá aqui...</option>
+           </select>
+       </div>
+       <button id="limpar" onclick="limpaTela()">Limpar</button>
+    </section>
+    
+    <footer>
+        <p>Rafael &copy;</p>
+    </footer>
+    <script src="script.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>
